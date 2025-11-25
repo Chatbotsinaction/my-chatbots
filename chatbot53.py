@@ -2,6 +2,7 @@
 from flask import Flask, render_template, request, jsonify
 import json
 from datetime import datetime
+import os
 
 # Import our chatbot class (assuming it's in a separate file)
 from chatbot3 import MLChatbot
