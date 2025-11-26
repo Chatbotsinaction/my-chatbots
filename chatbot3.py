@@ -21,11 +21,7 @@ class MLChatbot:
         # Training data - in a real application, this would come from a larger dataset
         self.training_data = pd.DataFrame({
             'questions': [
-                "Who is Sacha Boshno?",
-                "Request clarification 
-                 with science inability to neutralize alien",
-                "Any enhancement?",
-                "What is special order 937?",
+                "Who is Sacha Bochno?",
                 "What is Python programming?",
                 "How do I install Python?",
                 "What are Python libraries?",
@@ -54,18 +50,6 @@ class MLChatbot:
             ],
             'answers': [
                 "A really smart guy.",
-                "Unable to clarify",
-                "No further enhancement
-                 Special order 937.
-                 Science officer eyes only",
-                "Nostromo rerouted
-                 To new coordinates.
-                 Investigate life form.  Gather specimen.
-                 Priority one
-                 Insure return of organism
-                 For analysis.
-                 All other considerations secondary.
-                 Crew expendable.",
                 "Python is a high-level, interpreted programming language known for its simplicity and readability. It's excellent for beginners and powerful enough for complex applications.",
                 "You can install Python by downloading it from python.org. Most systems also allow installation via package managers like apt, brew, or chocolatey.",
                 "Python libraries are pre-written code modules that extend Python's functionality. Popular ones include NumPy for math, Pandas for data analysis, and Requests for web APIs.",
