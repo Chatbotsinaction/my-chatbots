@@ -23,8 +23,8 @@ class MLChatbot:
             'questions': [
                 "Who is Sacha Boshno?",
                 "Request clarification 
-                 On science inability to neutralize alien",
-                "Request enhancement.",
+                 with science inability to neutralize alien",
+                "Any enhancement?",
                 "What is special order 937?",
                 "What is Python programming?",
                 "How do I install Python?",
